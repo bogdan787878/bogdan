@@ -1,0 +1,376 @@
+
+.cover {
+  position: relative;
+  padding: 140px 164px;
+  gap: 42px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.mobile-cover {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 40px;
+}
+a:hover {
+  color: #AFA175;
+}
+
+.tittle_discription {
+  display: flex;
+  padding: 0 124px;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.pic_tittle {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 80px 0;
+}
+
+
+.title {
+   color: white;
+   font-size: 156px;
+   font-family: Noto Serif;
+   line-height: 64px;
+   text-align: center;
+   padding: 32px 0 0;
+}
+
+
+.discription {
+   color: #AFA175;
+   font-size: 20px;
+   font-family: Geometria;
+   font-weight: 400;
+   padding-top: 32px;
+   width: 400px;
+}
+
+.user_pic {
+text-align: center;
+filter: drop-shadow(0px 4px 100px #AFA175) drop-shadow(0px 4px 250px #00E9FF);
+}
+
+
+.projects {
+  position: absolute;
+  left: calc(48% - 240px/2 - 539px);
+  top: 390px;
+}
+
+
+.cooperation {
+  position: absolute;
+  left: calc(50% - 240px/2 - 539px);
+  top: 82px;
+}
+
+
+.publications {
+  position: absolute;
+  left: calc(55% - 180px/2 + 484px);
+  top: 50px;
+;
+}
+
+.media {
+  position: absolute;
+  left: calc(50% - 180px/2 + 596px);
+  top: 280px;
+}
+
+.education {
+  position: absolute;
+  left: calc(50% - 140px/2 + 491px);
+  top: 500px;
+}
+
+
+.about {
+  padding: 300px 0 124px 0;
+}
+
+.subtitle {
+  font-family: 'Noto Serif';
+  font-size: 92px;
+  line-height: 125px;
+  text-align: center;
+  color: #AFA175;
+}
+
+.points_container {
+ padding-top: 112px;
+}
+
+.points {
+  justify-content: center;
+ display: flex;
+ flex-direction: row;
+ align-items: flex-start;
+ padding: 0 0 56px 0;
+ gap: 30px;
+ height: 289px;
+}
+
+.point {
+ idisplay: flex;
+ flex-direction: column;
+ justify-content: center;
+ width: 350px;
+ height: 239px;
+}
+
+.values {
+  background: #0E2235;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ padding: 0px;
+ gap: 16px;
+ width: 240px;
+ height: 189px;
+ flex: none;
+ order: 0;
+ flex-grow: 0;
+}
+
+.value1 {
+ font-family: 'Baza Art';
+ font-size: 128px;
+ color: #AFA175;
+}
+
+.value2 {
+ font-family: 'Noto Serif';
+ font-size: 56px;
+ color: #FFFFFF;
+}
+
+.value_text {
+ font-family: 'Geometria';
+ font-weight: 300;
+ font-size: 20px;
+ color: #DDD7D1;
+}
+
+.footer {
+  padding-top: 92px;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  text-align: center;
+  padding: 0 164px 56px;
+  justify-content: center;
+}
+
+.contact_text {
+  font-family: Noto Serif;
+  font-size: 40px;
+  color: white;
+  padding: 24px 0;
+}
+
+.value_contact {
+  font-family: Geometria;
+  font-size: 20px;
+  font-weight: 300;
+  color: white;
+}
+.contact_logo {
+  display: block;
+  text-align: center;
+  padding-bottom: 56px;
+  }
+
+  .adress {
+    font-family: Geometria;
+    font-weight: 300;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding-bottom: 56px;
+      }
+
+
+
+
+@media screen and (max-width: 430px) {
+
+.header {
+  height: 15%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 32px;
+}
+
+
+.cover {
+  padding: 140px 15px;
+  display: none;
+}
+
+.mobile-cover {
+  display: block;
+}
+
+
+.title {
+ font-family: 'Noto Serif';
+ font-size: 56px;
+ line-height: 32px;
+ color: #FFFFFF;
+ padding: 32px 48px 0 48px;
+}
+
+#first {
+  text-align: left;
+}
+
+#second {
+  text-align: right;
+}
+
+.discription {
+font-family: 'Geometria';
+font-size: 14px;
+line-height: 18px;
+color: #AFA175;
+padding: 32px 15px;
+width: 340px;
+}
+
+.user_pic {
+  filter: unset;
+  padding-top: 80px;
+}
+
+.projects {
+ position: absolute;
+ width: 140px;
+ height: 140px;
+ left: 45px;
+ top: 500px;
+}
+
+.projects: hover {
+   position: absolute;
+ width: 140px;
+ height: 140px;
+ left: 45px;
+ top: 500px;
+
+}
+
+.cooperation {
+ position: absolute;
+ width: 140px;
+ height: 140px;
+ left: 200px;
+ top: 600px;
+}
+
+.publications {
+ display: none;
+}
+
+.media {
+position: absolute;
+width: 140px;
+height: 140px;
+left: 45px;
+top: 700px;
+}
+
+.education {
+  display: none;
+}
+
+.about {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 56px 0 0;
+}
+
+.subtitle {
+font-family: 'Noto Serif';
+font-size: 40px;
+line-height: 54px;
+text-align: center;
+color: #AFA175;
+}
+
+.points_container {
+display: flex;
+flex-direction: row;
+padding: 0px 15px;
+gap: 10px;
+padding-top: 56px;
+}
+
+.points {
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+width: 140px;
+height: 600px;
+}
+
+.point {
+width: 100%;
+background: #0E2235;
+justify-content: stretch;
+}
+
+.values {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 130px;
+height: 83px;
+}
+
+.value1 {
+font-family: 'Baza Art';
+font-size: 56px;
+color: #AFA175;
+}
+
+.value2 {
+font-family: 'Noto Serif';
+font-size: 32px;
+color: #FFFFFF;
+}
+
+.value_text {
+ font-family: 'Geometria';
+ font-size: 14px;
+ color: #DDD7D1;
+ align-self: stretch;
+}
+
+.contacts {
+    flex-direction: column;
+    padding: 0 0 56px;
+  }
